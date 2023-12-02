@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let url = 'https://stories-provider.kinky-stories-prod.cluster.kinkstorage.com/script/stories?amount=200'
+
+function kinks(){
+
+fetch(url, {
+})
+  .then(resp => resp.json())
+  .then(function(kink) {
+
+    console.log(kink)
+
+ })
+}
+kinks()
+   </script>
+</body>
+</html>
